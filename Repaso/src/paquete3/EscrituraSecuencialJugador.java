@@ -5,10 +5,14 @@
  */
 package paquete3;
 
+import java.io.EOFException;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
+import java.util.Scanner;
+import paquete1.Club;
 import paquete1.Jugador;
 
 /**
@@ -91,6 +95,7 @@ public class EscrituraSecuencialJugador {
             System.err.println("Error al cerrar el archivo.");
             
         } // fin de catch
-    } 
+    }
+         
 
 }
